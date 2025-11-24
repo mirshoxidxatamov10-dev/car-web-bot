@@ -9,7 +9,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 const page = () => {
   const { data, error, isLoading } = useSWR(
-    "https://lesson-bot-node.onrender.com/api/products",
+    "https://car-web-bot-node.onrender.com/api/products",
     fetcher
   );
 

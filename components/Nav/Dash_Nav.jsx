@@ -10,6 +10,9 @@ const Dash_Nav = () => {
           <Button>Dashboard</Button>
         </Link>
         <Link href={`/dashboard/add`}>
+          <Button variant="light">Category qo'shish</Button>
+        </Link>
+        <Link href={`/dashboard/add`}>
           <Button variant="light">Mahsulot qo'shish</Button>
         </Link>
       </Flex>

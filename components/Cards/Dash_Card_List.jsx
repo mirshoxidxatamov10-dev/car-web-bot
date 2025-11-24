@@ -22,7 +22,7 @@ const Dash_Card_List = ({ data }) => {
   const DeleteProduct = async () => {
     try {
       let res = await fetch(
-        `https://lesson-bot-node.onrender.com/api/products/${deleteItem._id}`,
+        `https://car-web-bot-node.onrender.com/api/products/${deleteItem._id}`,
         {
           method: "DELETE",
         }
